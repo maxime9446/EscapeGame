@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scenarios",
+  "info": {
+    "singularName": "scenario",
+    "pluralName": "scenarios",
+    "displayName": "Scenario",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "duration": {
+      "type": "integer",
+      "required": true
+    },
+    "imageGallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "numberPlayer": {
+      "type": "integer"
+    },
+    "diffulculty": {
+      "type": "enumeration",
+      "enum": [
+        "easy",
+        "medium",
+        "hard",
+        "very hard"
+      ]
+    },
+    "rooms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::room.room",
+      "mappedBy": "scenario"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "Room",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "scenario": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::scenario.scenario",
+      "inversedBy": "rooms"
+    }
+  }
+}

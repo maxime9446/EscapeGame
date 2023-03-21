@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rates",
+  "info": {
+    "singularName": "rate",
+    "pluralName": "rates",
+    "displayName": "Rate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "float"
+    },
+    "numberPlayer": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

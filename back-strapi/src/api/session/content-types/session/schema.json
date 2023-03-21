@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sessions",
+  "info": {
+    "singularName": "session",
+    "pluralName": "sessions",
+    "displayName": "Session",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "datetime",
+      "required": true
+    },
+    "validated": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "scenario": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::scenario.scenario"
+    },
+    "room": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::room.room"
+    },
+    "numberPlayer": {
+      "type": "integer"
+    }
+  }
+}
