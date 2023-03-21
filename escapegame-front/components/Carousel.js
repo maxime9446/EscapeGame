@@ -9,6 +9,8 @@ const Carousel = ({images}) => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
         customPaging: function (i) {
             return (
                 <div

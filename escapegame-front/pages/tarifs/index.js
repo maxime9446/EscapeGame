@@ -63,7 +63,7 @@ const Index = ({rates}) => {
                                         <span>Accès aux salles de niveau very hard</span>
                                     </li>
                                 </ul>
-                                <a href="#"
+                                <a href="/bookings"
                                    className="text-white bg-black hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Réserver</a>
                             </div>))}
                     </div>

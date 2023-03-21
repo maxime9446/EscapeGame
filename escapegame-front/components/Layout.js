@@ -9,7 +9,7 @@ export default function Layout({children}) {
         <>
             <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
                 <div className="container flex flex-wrap items-center justify-between mx-auto">
-                    <img src="/logo.png" className="h-6 mr-3 sm:h-9"/>
+                    <img src="/logo-escapeg.png" className="max-h-14"/>
                     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li>

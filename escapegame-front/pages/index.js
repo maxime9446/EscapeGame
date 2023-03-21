@@ -13,6 +13,7 @@ const Index = () => {
                     <div className="mx-auto w-lg text-center mb-8 lg:mb-12">
                         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Reprenez <mark
                             className="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">le contrôle</mark> bientôt
+                            !
                         </h1>
                         <video
                             className="w-full h-auto max-w-full border border-gray-200 rounded-lg dark:border-gray-700"
