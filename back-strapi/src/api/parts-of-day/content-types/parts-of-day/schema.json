@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parts_of_days",
+  "info": {
+    "singularName": "parts-of-day",
+    "pluralName": "parts-of-days",
+    "displayName": "Party",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "day": {
+      "type": "datetime"
+    },
+    "scenario": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::scenario.scenario"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "not_started",
+        "in_progress",
+        "completed"
+      ]
+    }
+  }
+}
