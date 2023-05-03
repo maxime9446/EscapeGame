@@ -40,6 +40,8 @@ npm run build
 # or
 yarn build
 ```
+## Récuperation des datas
+code d'accès : data
 
 ## ⚙️ Deployment
 
