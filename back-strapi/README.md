@@ -40,6 +40,10 @@ npm run build
 # or
 yarn build
 ```
+## Récuperation des datas
+file : my-strapi-export.tar.gz.enc
+
+code d'accès : data
 
 ## ⚙️ Deployment
 
