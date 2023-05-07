@@ -27,6 +27,11 @@
         "in_progress",
         "completed"
       ]
+    },
+    "room": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::room.room"
     }
   }
 }
