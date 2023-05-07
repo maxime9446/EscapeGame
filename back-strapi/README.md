@@ -42,10 +42,13 @@ npm run build
 # or
 yarn build
 ```
-## Récuperation des datas
+### `Récuperation des datas`
 file : dataEscapeGame.tar.gz.enc
 
 code d'accès : data
+
+### `Import`
+npm run strapi import -- -f dataEscapeGame.tar.gz.enc --key data
 
 ## ⚙️ Deployment
 
