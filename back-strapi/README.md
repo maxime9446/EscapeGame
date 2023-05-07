@@ -43,7 +43,7 @@ npm run build
 yarn build
 ```
 ## Récuperation des datas
-file : my-strapi-export.tar.gz.enc
+file : dataEscapeGame.tar.gz.enc
 
 code d'accès : data
 
